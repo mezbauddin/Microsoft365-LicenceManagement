@@ -1,0 +1,25 @@
+# Ignore reports directory
+Reports/
+reports/
+
+# Ignore generated report files
+*.csv
+*.xlsx
+*.xls
+*.log
+
+# PowerShell specific
+*.ps1.bak
+*.psm1.bak
+*.psd1.bak
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+
+# VS Code specific
+.vscode/
+*.code-workspace
+
+# Local settings file
+*.json
